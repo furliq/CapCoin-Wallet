@@ -24,7 +24,7 @@ if (login_check($mysqli) == true) {
             echo '<p class="error">Error Logging In!</p>';
         }
         ?>
-        <form action="includes/process_login.php" method="post" name="login_form">
+        <form action="includes/login.php" method="post" name="login_form">
             Email: <input type="text" name="email" />
             Password: <input type="password"
                              name="password"
