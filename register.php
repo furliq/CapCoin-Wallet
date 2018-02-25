@@ -1,6 +1,7 @@
 <?php
 include_once 'includes/register.inc.php';
 include_once 'includes/functions.php';
+include_once 'style.php';
 ?>
 <!DOCTYPE html>
 <html>

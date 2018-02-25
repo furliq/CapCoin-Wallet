@@ -1,6 +1,7 @@
 <?php
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';
+include_once 'style.php';
 
 sec_session_start();
 ?>
@@ -9,7 +10,6 @@ sec_session_start();
     <head>
         <meta charset="UTF-8">
         <title>Secure Login: Protected Page</title>
-        <link rel="stylesheet" href="styles/main.css" />
     </head>
     <body>
         <?php if (login_check($mysqli) == true) : ?>

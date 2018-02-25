@@ -1,6 +1,7 @@
 <?php
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';
+include_once 'style.php';
 
 sec_session_start();
 
@@ -14,7 +15,6 @@ if (login_check($mysqli) == true) {
 <html>
     <head>
         <title>CapCoin Wallet Log In</title>
-        <link rel="stylesheet" href="styles/main.css" />
         <script type="text/JavaScript" src="js/sha512.js"></script>
         <script type="text/JavaScript" src="js/forms.js"></script>
     </head>
